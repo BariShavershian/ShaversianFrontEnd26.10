@@ -1,4 +1,24 @@
-var userName1=prompt("What is your name?")
-var userName2=prompt("how old are you?")
-var userName3=prompt("What city are you coming from?")
-alert(`${userName1} ` + `${userName2} ` + `${userName3} `)
+//  скрипт для додавання, віднімання, множення та поділу двох чисел
+let a=2+2
+
+let b=2-2
+
+let c=2*2
+
+let d=2/2
+
+// Користувач вводить два числа через два промпти, і повідомлення виводиться алертом з таким результатом:
+//Користувач ввів 2 і 2:
+// 2+2=4
+// 2-2=0
+// 2*2=4
+// 2/2=1
+
+let userNum = prompt(2);
+let userNum2 = prompt(2);
+
+alert(a);
+alert(b);
+alert(c);
+alert(d);
+
