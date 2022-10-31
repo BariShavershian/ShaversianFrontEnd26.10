@@ -1,17 +1,7 @@
-// //  скрипт для додавання, віднімання, множення та поділу двох чисел
 
-let userNum =+prompt('enter any number');
-let userNum2 =+prompt('enter any number');
-let a=userNum+userNum2
+let clock =Number(prompt("What time is it?"));
 
-let b=userNum-userNum2
+let hour = clock * 60 * 60;
 
-let c=userNum*userNum2
-
-let d=userNum/userNum2
-
-alert(a);
-alert(b);
-alert(c);
-alert(d);
+alert(hour);
 
