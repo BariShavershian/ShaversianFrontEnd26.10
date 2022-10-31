@@ -1,21 +1,14 @@
-//  скрипт для додавання, віднімання, множення та поділу двох чисел
-let a=2+2
+// //  скрипт для додавання, віднімання, множення та поділу двох чисел
 
-let b=2-2
+let userNum =+prompt('enter any number');
+let userNum2 =+prompt('enter any number');
+let a=userNum+userNum2
 
-let c=2*2
+let b=userNum-userNum2
 
-let d=2/2
+let c=userNum*userNum2
 
-// Користувач вводить два числа через два промпти, і повідомлення виводиться алертом з таким результатом:
-//Користувач ввів 2 і 2:
-// 2+2=4
-// 2-2=0
-// 2*2=4
-// 2/2=1
-
-let userNum = prompt(2);
-let userNum2 = prompt(2);
+let d=userNum/userNum2
 
 alert(a);
 alert(b);
