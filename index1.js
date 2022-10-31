@@ -1,4 +1,25 @@
-var userName1=prompt("What is your name?")
-var userName2=prompt("how old are you?")
-var userName3=prompt("What city are you coming from?")
-alert(`${userName1} ` + `${userName2} ` + `${userName3} `)
+let userActions =prompt('what action do you want to take?(add, sub, mult, div)')
+let add='add'
+
+let sub='sub'
+
+let mult='mult'
+let div='div'
+
+let userNum1 =+prompt('enter the first number')
+
+let userNum2 =+prompt('enter the second number')
+if(userActions==add){
+ alert(userNum1 + userNum2)
+}
+
+else if(userActions==sub){
+    alert(userNum1 - userNum2)
+}
+else if(userActions==mult){
+    alert(userNum1 * userNum2)
+}
+else if(userActions==div){
+   alert(userNum1 / userNum2)
+}
+
