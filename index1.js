@@ -1,6 +1,19 @@
-a=prompt("enter any number"); 
-b=prompt("enter any number"); 
-c=prompt("enter any number"); 
-if((b<a && a<c) || (c<a && a<b)) alert(a);
-if((a<b && b<c) || (c<b && b<a)) alert(b);
-if((a<c && c<b) || (b<c && c<a)) alert(c);
+// Реалізуйте функцію removeElement(array, item), щоб видалити елемент item з масиву array.
+
+// Наприклад:
+
+// const array = [1, 2, 3, 4, 5, 6, 7];
+// removeElement(array, 5 );
+// console.log(array);
+// Результат: [1, 2, 3, 4, 6, 7]
+
+const array = [1, 2, 3, 4, 5, 6, 7];
+
+const removeElement = (array) => {
+    index = array.indexOf(5);
+    array.splice(index, 1);
+
+}
+removeElement(array,5);
+console.log(array);
+  
